@@ -4,7 +4,7 @@
 # Copyright (C) 2020-2021 Adithya R.
 
 SECONDS=0 # builtin bash timer
-TC_DIR="$HOME/tc/clang-r450784d"
+TC_DIR="$HOME/tc/aosp-clang-16"
 AK3_DIR="$HOME/AnyKernel3"
 DEFCONFIG="lisa_defconfig"
 

@@ -4,11 +4,11 @@
 # Copyright (C) 2020-2021 Adithya R.
 
 SECONDS=0 # builtin bash timer
-TC_DIR="$HOME/tc/clang-r450784d"
+TC_DIR="$HOME/tc/trb_clang"
 AK3_DIR="$HOME/AnyKernel3"
 DEFCONFIG="lisa_defconfig"
 
-ZIPNAME="QuicksilveR-lisa-$(date '+%Y%m%d-%H%M').zip"
+ZIPNAME="Akaza-lisa-$(date '+%Y%m%d-%H%M').zip"
 
 if test -z "$(git rev-parse --show-cdup 2>/dev/null)" &&
    head=$(git rev-parse --verify HEAD 2>/dev/null); then
